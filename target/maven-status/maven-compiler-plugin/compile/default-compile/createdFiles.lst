@@ -1,0 +1,5 @@
+com\xmy\bean\vo\CommentInfo.class
+com\xmy\bean\vo\ArticleInfo.class
+com\xmy\bean\bean\Article.class
+com\xmy\bean\bean\Comment.class
+com\xmy\bean\bean\User.class
