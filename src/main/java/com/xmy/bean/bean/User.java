@@ -16,6 +16,7 @@ public class User implements Serializable {
     private Integer sex;
     private String headPic;
     private String backgroundPic;
+    private String backbackPic;
     private String backgroundAlt;
     private String email;
     private String phone;
@@ -74,6 +75,14 @@ public class User implements Serializable {
 
     public void setBackgroundPic(String backgroundPic) {
         this.backgroundPic = backgroundPic;
+    }
+
+    public String getBackbackPic() {
+        return backbackPic;
+    }
+
+    public void setBackbackPic(String backbackPic) {
+        this.backbackPic = backbackPic;
     }
 
     public String getBackgroundAlt() {
