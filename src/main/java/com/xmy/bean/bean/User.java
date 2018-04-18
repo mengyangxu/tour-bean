@@ -20,6 +20,7 @@ public class User implements Serializable {
     private String backgroundAlt;
     private String email;
     private String phone;
+    private Integer state;
 
     public Integer getId() {
         return id;
@@ -107,5 +108,13 @@ public class User implements Serializable {
 
     public void setPhone(String phone) {
         this.phone = phone;
+    }
+
+    public Integer getState() {
+        return state;
+    }
+
+    public void setState(Integer state) {
+        this.state = state;
     }
 }
