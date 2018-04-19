@@ -1,5 +1,10 @@
 com\xmy\bean\vo\CommentInfo.class
-com\xmy\bean\vo\ArticleInfo.class
+com\xmy\bean\common\Page.class
+com\xmy\bean\bean\Chatlog.class
+com\xmy\bean\vo\ChatTableVo.class
 com\xmy\bean\bean\Article.class
-com\xmy\bean\bean\Comment.class
 com\xmy\bean\bean\User.class
+com\xmy\bean\vo\ChatlogVo.class
+com\xmy\bean\vo\ArticleInfo.class
+com\xmy\bean\vo\Ipinfo.class
+com\xmy\bean\bean\Comment.class
