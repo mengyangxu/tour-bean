@@ -6,11 +6,23 @@ package com.xmy.bean.vo;
  * @Date: Created in 14:15 2018/4/19
  */
 public class ArticleSearch {
+    private Integer currentPage;
     private Integer currentResult;
     private Integer pageSize;
     private String nowdays; // week最近一周，month最近一月
     private Integer plate;
     private Integer approve;  //是否已查看(管理员)
+
+    public ArticleSearch() {
+    }
+
+    public Integer getCurrentPage() {
+        return currentPage;
+    }
+
+    public void setCurrentPage(Integer currentPage) {
+        this.currentPage = currentPage;
+    }
 
     public Integer getCurrentResult() {
         return currentResult;
